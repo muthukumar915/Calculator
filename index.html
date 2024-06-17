@@ -7,32 +7,30 @@
 </head>
 <body>
     <div class="container">
-        <!-- <h1>Calculator</h1> -->
-        <div class="in">
-        <input type="text" id="display">
-        </div>
-        <div id="cal">
-
+        <h2>CALCULATOR</h2> 
+        <input class="in" id="display">
             <button class="btn" onclick="appendClear()">AC</button>
-            <button class="btn" onclick="appendDisplay()">+</button>
-            <button class="btn" onclick="appendDisplay()">-</button>
-            <button class="btn" onclick="appendDisplay()">*</button>
+            <button class="btn" onclick="appendDisplay('+')">+</button>
+            <button class="btn" onclick="appendDisplay('-')">-</button>
+            <button class="btn" onclick="appendDisplay('*')">*</button>
 
-            <button class="btn" onclick="appendDisplay()">/</button>
-            <button class="btn" onclick="appendDisplay()">1</button>
-            <button class="btn" onclick="appendDisplay()">2</button>
-            <button class="btn" onclick="appendDisplay()">3</button>
+            <button class="btn" onclick="appendDisplay('/')">/</button>
+            <button class="btn" onclick="appendDisplay('1')">1</button>
+            <button class="btn" onclick="appendDisplay('2')">2</button>
+            <button class="btn" onclick="appendDisplay('3')">3</button>
 
-            <button class="btn" onclick="appendDisplay()">4</button>
-            <button class="btn" onclick="appendDisplay()">5</button>
-            <button class="btn" onclick="appendDisplay()">6</button>
-            <button class="btn" onclick="appendDisplay()">7</button>
+            <button class="btn" onclick="appendDisplay('4')">4</button>
+            <button class="btn" onclick="appendDisplay('5')">5</button>
+            <button class="btn" onclick="appendDisplay('6')">6</button>
+            <button class="btn" onclick="appendDisplay('7')">7</button>
 
-            <button class="btn" onclick="appendDisplay()">8</button>
-            <button class="btn" onclick="appendDisplay()">9</button>
-            <button class="btn" onclick="appendDisplay()">0</button>
-            <button class="btn" onclick="appendtoResult">=</button>
-        </div>
+            <button class="btn" onclick="appendDisplay('8')">8</button>
+            <button class="btn" onclick="appendDisplay('9')">9</button>
+            <button class="btn" onclick="appendDisplay('0')">0</button>
+            <button class="btn" onclick="appendtoResult()">=</button>
+     
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
