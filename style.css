@@ -26,16 +26,16 @@ border-radius: 5px;
 border: none;
 outline: none;
 margin-bottom: 5px;
-}
-#cal{
-  
-    
+box-shadow: 2px 2px 5px rgb(97, 97, 97);
 }
 button{
     /* display:inline-flex; */
     width: 35px;
     padding: 10px;
     margin: 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
     
 
 }
